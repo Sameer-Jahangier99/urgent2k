@@ -1,0 +1,47 @@
+.footerMainContainer {
+    background-color: var(--primary-color);
+}
+
+.footerLogo {
+    object-fit: contain;
+    width: 130px;
+    height: 50px;
+}
+
+.footerDivider {
+    height: 2px;
+    background-color: var(--black);
+}
+
+.footerLinkTitle {
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    font-size: 16px !important;
+    color: var(--white);
+    margin-top: 20px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+}
+
+.footerLinkText {
+    font-family: var(--font-poppins);
+    font-size: 15px !important;
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+.footerCopyRightText {
+    font-family: var(--font-poppins);
+    font-size: 15px !important;
+    color: var(--white);
+}
+
+.scrollTopIconContainer {
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+}
