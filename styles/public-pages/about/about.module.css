@@ -74,6 +74,17 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.tabComponentMainContainer {
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.tabContainerImg {
+    width: 100%;
+    height:300px;
+    position: relative;
+}
+
 /* For Ipad & Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .aboutFoundationImgContainer {
