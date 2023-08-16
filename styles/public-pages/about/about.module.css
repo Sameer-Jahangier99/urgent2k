@@ -6,9 +6,18 @@
     height: 32rem;
 }
 
+.aboutDividerLine {
+    border-bottom: 5px solid var(--primary-color);
+    width: 17px;
+}
+
+.aboutUsCaption {
+    line-height: 1px;
+}
+
 .aboutFoundationBtn {
     font-size: 14px;
-    font-family:  var(--font-outfit);
+    font-family: var(--font-outfit);
     font-weight: 600;
     background-color: var(--primary-color) !important;
     color: var(--white);
@@ -21,11 +30,85 @@
 }
 
 .aboutFoundationBtn:active {
-    color: var(--white); /* Change the color to black when the button is pressed */
+    color: var(--white);
 }
 
-.aboutFoundationImg {
+.aboutFoundationUnorderList {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.aboutFoundationUnorderList li::before {
+    content: "•";
+    color: var(--primary-color);
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+.aboutFoundationImgContainer {
     width: 300px;
     height: 400px;
     position: relative;
+    top: 20px
+}
+
+.aboutFoundationImg2Container {
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+
+.aboutFoundationImg {
+    border-radius: 5px;
+}
+
+
+.aboutCounterContainer {
+    background: var(--white);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* For Ipad & Ipad Pro */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .aboutFoundationImgContainer {
+        width: 250px;
+        height: 350px;
+    }
+
+    .aboutFoundationImg2Container {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 767px) and (min-width: 340px) {
+    .aboutFoundationImgContainer {
+        width: 200px;
+        height: 250px;
+    }
+
+    .aboutFoundationImg2Container {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 339px) {
+    .aboutFoundationImgContainer {
+        width: 130px;
+        height: 200px;
+    }
+
+    .aboutFoundationImg2Container {
+        width: 130px;
+        height: 180px;
+    }
 }

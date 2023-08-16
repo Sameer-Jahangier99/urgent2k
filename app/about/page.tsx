@@ -3,8 +3,8 @@ import { NextPage } from "next";
 // Component
 import AboutPage from '@/components/public-pages/about/index'
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return <AboutPage />;
 };
 
-export default Home;
+export default About;

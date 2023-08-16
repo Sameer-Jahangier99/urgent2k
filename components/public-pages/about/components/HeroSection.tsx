@@ -1,5 +1,3 @@
-import React from "react";
-
 // Styles
 import styles from "@/styles/public-pages/about/about.module.css";
 

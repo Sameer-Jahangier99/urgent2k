@@ -1,7 +1,9 @@
 :root {
     --white: #ffffff;
+    --off-white: #fcfcfc;
     --black: #000000;
     --red: #DC4C64;
+    --dull-black: #666666;
     --primary-color: #007fff;
     --container-wide-padding: 6rem;
 }
@@ -88,15 +90,35 @@ span {
     color: var(--white);
 }
 
+.text-dull-black {
+    color: var(--dull-black);
+}
+
+.primary-color {
+   color: var(--primary-color);
+}
+
+/* Background Colors */
+.off-white-background {
+    background: var(--off-white);
+}
+
 /* font weight  */
 
 .weight-800 {
-    font-weight: 800 !important;
+    font-weight: 800;
 }
-
 
 .weight-700 {
     font-weight: 700;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-400 {
+    font-weight: 400;
 }
 
 /* For Ipad & Ipad Pro */
