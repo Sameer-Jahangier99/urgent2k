@@ -1,146 +1,147 @@
 :root {
-    --white: #ffffff;
-    --off-white: #fcfcfc;
-    --black: #000000;
-    --red: #DC4C64;
-    --dull-black: #666666;
-    --primary-color: #007fff;
-    --container-wide-padding: 6rem;
+  --white: #ffffff;
+  --off-white: #fcfcfc;
+  --grey: #acacac;
+  --black: #000000;
+  --red: #dc4c64;
+  --dull-black: #666666;
+  --primary-color: #007fff;
+  --container-wide-padding: 6rem;
 }
-
 
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-
 /* Fonts */
 h1 {
-    font-size: 60px;
-    font-family: var(--font-poppins);
+  font-size: 60px;
+  font-family: var(--font-poppins);
 }
 
 h2 {
-    font-size: 42px;
-    font-family: var(--font-poppins);
+  font-size: 42px;
+  font-family: var(--font-poppins);
 }
 
 h3 {
-    font-size: 32px;
-    font-family: var(--font-poppins);
+  font-size: 32px;
+  font-family: var(--font-poppins);
 }
 
 h4 {
-    font-size: 28px;
-    font-family: var(--font-poppins);
+  font-size: 28px;
+  font-family: var(--font-poppins);
 }
 
 h5 {
-    font-size: 26px;
-    font-family: var(--font-poppins);
+  font-size: 26px;
+  font-family: var(--font-poppins);
 }
 
 h6 {
-    font-size: 22px;
-    font-family: var(--font-poppins);
+  font-size: 22px;
+  font-family: var(--font-poppins);
 }
 
 p {
-    font-size: 20px;
-    font-family: var(--font-poppins);
+  font-size: 20px;
+  font-family: var(--font-poppins);
 }
-
-
 
 span {
-    font-size: 16px;
-    font-family: var(--font-poppins);
+  font-size: 16px;
+  font-family: var(--font-poppins);
 }
-
 
 .caption {
-    font-size: 14px;
-    font-family: var(--font-poppins);
+  font-size: 14px;
+  font-family: var(--font-poppins);
 }
-
 
 .container-wide {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
-
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* Field Errors */
 .error-text {
-    font-size: 14px;
-    color: var(--red);
-    font-family: var(--font-outfit);
+  font-size: 14px;
+  color: var(--red);
+  font-family: var(--font-outfit);
 }
 
 .field-error {
-    border: 1.2px solid var(--red);
+  border: 1.2px solid var(--red);
 }
 
 /* colors */
 
 .text-white {
-    color: var(--white);
+  color: var(--white);
 }
 
 .text-dull-black {
-    color: var(--dull-black);
+  color: var(--dull-black);
+}
+
+.text-off-white {
+  color: var(--off-white);
+}
+
+.text-grey {
+  color: var(--grey);
 }
 
 .primary-color {
-   color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* Background Colors */
 .off-white-background {
-    background: var(--off-white);
+  background: var(--off-white);
 }
 
 /* font weight  */
 
 .weight-800 {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .weight-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .weight-600 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .weight-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* For Ipad & Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .container-wide {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
+  .container-wide {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 /* For Mobile Screens */
 @media screen and (max-width: 767px) and (min-width: 340px) {
-    .container-wide {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
+  .container-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 /* For Mobile Screens */
 @media screen and (max-width: 339px) {
-    .container-wide {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+  .container-wide {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
