@@ -1,14 +1,15 @@
 import React from "react";
 
 // Components
-import HeroSection from "./components/HeroSection";
+
+import BannerSection from "../common/Banner";
 import AboutFoundation from "./components/AboutFoundation";
 import CounterSection from "./components/CounterSection";
 
 function index() {
   return (
     <main>
-      <HeroSection />
+      <BannerSection title="About Us" />
       <AboutFoundation />
       <CounterSection />
     </main>
