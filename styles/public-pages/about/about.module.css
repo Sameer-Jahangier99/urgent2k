@@ -1,0 +1,31 @@
+.aboutHeroSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/about-hero-img.png') center no-repeat;
+    height: 32rem;
+}
+
+.aboutFoundationBtn {
+    font-size: 14px;
+    font-family:  var(--font-outfit);
+    font-weight: 600;
+    background-color: var(--primary-color) !important;
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+}
+
+.aboutFoundationBtn:hover {
+    color: var(--white);
+}
+
+.aboutFoundationBtn:active {
+    color: var(--white); /* Change the color to black when the button is pressed */
+}
+
+.aboutFoundationImg {
+    width: 300px;
+    height: 400px;
+    position: relative;
+}

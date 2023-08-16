@@ -1,10 +1,10 @@
 import { NextPage } from "next";
 
 // Component
-import HomePage from "@/components/public-pages/home";
+import AboutPage from '@/components/public-pages/about/index'
 
 const Home: NextPage = () => {
-  return <HomePage />;
+  return <AboutPage />;
 };
 
 export default Home;

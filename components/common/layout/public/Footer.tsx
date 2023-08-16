@@ -116,7 +116,7 @@ const Footer: FC = () => {
 
         <div className="col-md-5">
           <h6 className={styles?.footerLinkTitle}>NEWS LETTER</h6>
-
+          
           <FormikChatInputField />
         </div>
 

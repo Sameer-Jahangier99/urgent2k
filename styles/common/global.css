@@ -82,6 +82,23 @@ span {
     border: 1.2px solid var(--red);
 }
 
+/* colors */
+
+.text-white {
+    color: var(--white);
+}
+
+/* font weight  */
+
+.weight-800 {
+    font-weight: 800 !important;
+}
+
+
+.weight-700 {
+    font-weight: 700;
+}
+
 /* For Ipad & Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .container-wide {
