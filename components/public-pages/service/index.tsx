@@ -1,5 +1,5 @@
 // Components
-import BannerSection from "../common/Banner";
+import BannerSection from "../common/BannerSection";
 import WorkSection from "./components/WorkSection";
 
 function index() {
