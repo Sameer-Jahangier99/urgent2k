@@ -1,28 +1,34 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-
-name: Node.js CI
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "production" ]
+    branches:
+      - main # Change this to your main branch name
 
 jobs:
   build:
-
-    runs-on: self-hosted
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+    runs-on: ubuntu-latest
+    
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build
-    - run: pm2 restart frontend
+        node-version: 14
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Build Next.js app
+      run: npm run build
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out # Change this to the build output directory
+    
+    - name: Cleanup
+      run: rm -rf out # Remove the build output directory after deployment
