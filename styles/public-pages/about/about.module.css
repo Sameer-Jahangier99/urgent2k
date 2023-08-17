@@ -81,7 +81,53 @@
 
 .tabContainerImg {
     width: 100%;
-    height:300px;
+    height: 300px;
+    position: relative;
+}
+
+.aboutOurTeamContainer {
+    background: var(--primary-color);
+}
+
+.meetOurTeamCaption {
+    line-height: 1px;
+}
+
+.abooutMeetOurTeamDivider {
+    border-bottom: 5px solid var(--white);
+    width: 17px;
+}
+
+.aboutMeetOurTeamBtn {
+    color: var(--primary-color);
+    background: var(--white);
+    border-radius: 5px;
+    border: none;
+    height: 55px;
+    width: 121px;
+}
+
+.aboutTeamContainerImg {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.ourExpertise1InfoContainer {
+    border-radius: 4px;
+    background: var(--primary-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.ourExpertiseInfoContainer {
+    border-radius: 4px;
+    background: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.ourExpertiseImg {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 

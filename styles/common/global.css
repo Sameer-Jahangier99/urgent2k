@@ -123,6 +123,10 @@ span {
   font-weight: 600;
 }
 
+.weight-500 {
+  font-weight: 500;
+}
+
 .weight-400 {
   font-weight: 400;
 }
@@ -201,6 +205,44 @@ button#controlled-tab-example-tab-approach {
     font-size: 12px;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 22px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  h6 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 17px;
+  }
+  
+  span {
+    font-size: 16px;
+  }
+  
+  .caption {
+    font-size: 14px;
+  }
+  
+
 
 }
 
@@ -231,6 +273,45 @@ button#controlled-tab-example-tab-approach {
     font-size: 12px;
   }
 
+  h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 26px;
+    
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  h6 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  span {
+    font-size: 15px;
+  }
+  
+  .caption {
+    font-size: 14px;
+  }
+  
+
+
 }
 
 /* For Mobile Screens */
@@ -259,5 +340,43 @@ button#controlled-tab-example-tab-approach {
     width: 110px; 
     font-size: 11px;
   }
+
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 15px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  span {
+    font-size: 13px;
+  }
+  
+  .caption {
+    font-size: 14px;
+  }
+
 
 }
