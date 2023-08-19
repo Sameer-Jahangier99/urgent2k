@@ -59,6 +59,11 @@ span {
   font-family: var(--font-poppins);
 }
 
+.subtitle {
+  font-size: 16px;
+  font-family: var(--font-poppins);
+}
+
 .container-wide {
   padding-left: 6rem;
   padding-right: 6rem;
@@ -244,6 +249,10 @@ button#controlled-tab-example-tab-approach {
   .caption {
     font-size: 14px;
   }
+
+  .subtitle {
+    font-size: 14px;
+  }
 }
 
 /* For Mobile Screens */
@@ -307,6 +316,9 @@ button#controlled-tab-example-tab-approach {
 
   .caption {
     font-size: 14px;
+  }
+  .subtitle {
+    font-size: 12px;
   }
 }
 
