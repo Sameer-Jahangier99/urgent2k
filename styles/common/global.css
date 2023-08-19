@@ -7,7 +7,7 @@
   --dull-black: #666666;
   --dark-purple: #171151;
   --primary-color: #007fff;
-  --light-grey: #F6F6F4;
+  --light-grey: #f6f6f4;
   --container-wide-padding: 6rem;
 }
 
@@ -109,6 +109,10 @@ span {
 .light-grey-background {
   background: var(--light-grey);
 }
+
+.white-background {
+  background: var(--white);
+}
 /* font weight  */
 
 .weight-800 {
@@ -140,12 +144,12 @@ ul.mb-3.nav.nav-tabs {
   justify-content: center;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   background-color: none;
   /* border-color: var(--bs-nav-tabs-link-active-border-color); */
   border-bottom: 3px solid var(--primary-color);
 }
-
 
 button#controlled-tab-example-tab-mission {
   font-family: var(--font-poppins);
@@ -189,61 +193,57 @@ button#controlled-tab-example-tab-approach {
 
   button#controlled-tab-example-tab-mission {
     height: 58px;
-    width: 170px; 
+    width: 170px;
     font-size: 12px;
   }
-  
+
   button#controlled-tab-example-tab-vision {
     height: 58px;
-    width: 170px; 
+    width: 170px;
     font-size: 12px;
   }
-  
+
   button#controlled-tab-example-tab-approach {
     height: 58px;
-    width: 170px; 
+    width: 170px;
     font-size: 12px;
   }
 
   h1 {
     font-size: 50px;
   }
-  
+
   h2 {
     font-size: 32px;
-    
   }
-  
+
   h3 {
     font-size: 24px;
   }
-  
+
   h4 {
     font-size: 22px;
   }
-  
+
   h5 {
     font-size: 20px;
   }
-  
+
   h6 {
     font-size: 18px;
   }
-  
+
   p {
     font-size: 17px;
   }
-  
+
   span {
     font-size: 16px;
   }
-  
+
   .caption {
     font-size: 14px;
   }
-  
-
-
 }
 
 /* For Mobile Screens */
@@ -255,63 +255,59 @@ button#controlled-tab-example-tab-approach {
 
   button#controlled-tab-example-tab-mission {
     height: 48px;
-    width: 130px; 
+    width: 130px;
     font-size: 12px;
     padding: 8px;
   }
-  
+
   button#controlled-tab-example-tab-vision {
     height: 48px;
-    width: 130px; 
+    width: 130px;
     font-size: 12px;
     padding: 8px;
   }
-  
+
   button#controlled-tab-example-tab-approach {
     height: 48px;
-    width: 130px; 
+    width: 130px;
     font-size: 12px;
   }
 
   h1 {
     font-size: 35px;
   }
-  
+
   h2 {
     font-size: 26px;
-    
   }
-  
+
   h3 {
     font-size: 22px;
   }
-  
+
   h4 {
     font-size: 20px;
   }
-  
+
   h5 {
     font-size: 18px;
   }
-  
+
   h6 {
     font-size: 18px;
   }
-  
+
   p {
     font-size: 16px;
   }
-  
+
   span {
     font-size: 15px;
   }
-  
+
   .caption {
     font-size: 14px;
   }
-  
-
-
 }
 
 /* For Mobile Screens */
@@ -323,60 +319,55 @@ button#controlled-tab-example-tab-approach {
 
   button#controlled-tab-example-tab-mission {
     height: 48px;
-    width: 110px; 
+    width: 110px;
     font-size: 11px;
-
   }
-  
+
   button#controlled-tab-example-tab-vision {
     height: 48px;
-    width: 110px; 
+    width: 110px;
     font-size: 11px;
-
   }
-  
+
   button#controlled-tab-example-tab-approach {
     height: 48px;
-    width: 110px; 
+    width: 110px;
     font-size: 11px;
   }
 
   h1 {
     font-size: 28px;
   }
-  
+
   h2 {
     font-size: 24px;
-    
   }
-  
+
   h3 {
     font-size: 20px;
   }
-  
+
   h4 {
     font-size: 18px;
   }
-  
+
   h5 {
     font-size: 16px;
   }
-  
+
   h6 {
     font-size: 15px;
   }
-  
+
   p {
     font-size: 14px;
   }
-  
+
   span {
     font-size: 13px;
   }
-  
+
   .caption {
     font-size: 14px;
   }
-
-
 }
