@@ -84,6 +84,15 @@
     border-radius: 142px;
 }
 
+.blogContainerImg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.blogAuthorImg {
+    border-radius: 50px;
+}
 
 /* For Ipad & Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 768px) {

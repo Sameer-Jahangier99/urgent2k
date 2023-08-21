@@ -8,6 +8,7 @@ import Features from "./components/Features";
 import OurTeam from "../common/OurTeam";
 import AboutFoundation from "./components/AboutFoundation";
 import Partners from "./components/Partners";
+import Blogs from "./components/Blogs";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <OurTeam />
       <AboutFoundation />
       <Partners />
+      <Blogs />
     </main>
   );
 };

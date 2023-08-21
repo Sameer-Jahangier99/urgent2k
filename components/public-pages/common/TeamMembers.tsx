@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import Member from "./Member";
 
@@ -55,17 +54,17 @@ export const servicesSliderSettings = {
 export default function TeamMembers() {
   return (
     <Slider {...servicesSliderSettings}>
-      <Member />
+      <Member title="Alextina Ditarson" caption="CONSULTANT" image="/team1.png" />
 
-      <Member />
+      <Member title="Esther Howard" caption="DIRECTOR" image="/team2.png" />
 
-      <Member />
+      <Member title="Guy Hawkins" caption="FINANCIAL PLANER" image="/team3.png" />
 
-      <Member />
+      <Member title="Alextina Ditarson" caption="CONSULTANT" image="/team1.png" />
 
-      <Member />
+      <Member title="Esther Howard" caption="DIRECTOR" image="/team2.png" />
 
-      <Member />
+      <Member title="Guy Hawkins" caption="FINANCIAL PLANER" image="/team3.png" />
     </Slider>
   );
 }

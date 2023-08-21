@@ -4,13 +4,13 @@ import Image from "next/image";
 import styles from "@/styles/public-pages/home/home.module.css";
 
 // Define the interface for the props
-interface TabContainerProps {
+interface RoundCardProps {
   icon: string;
   title: string;
   caption: string;
 }
 
-function RoundCard(props: TabContainerProps) {
+function RoundCard(props: RoundCardProps) {
   return (
     <div className={`${styles.aboutFoundationCard} p-3`}>
       <Image

@@ -14,7 +14,7 @@ function Features() {
           <h3 className="weight-600 mt-5">
             Efficient Public BusBooking Operation
           </h3>
-          <p className="span mt-3">
+          <p className="span mt-3 text-grey">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit...
@@ -22,7 +22,7 @@ function Features() {
           <h3 className="weight-600 mt-4">
             Streamlining Public Bus Booking and Management
           </h3>
-          <p className="span mt-3">
+          <p className="span mt-3 text-grey">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit...
@@ -30,7 +30,7 @@ function Features() {
           <h3 className="weight-600 mt-4">
             Simplifying Public Transport Booking and Administration
           </h3>
-          <p className="span mt-3">
+          <p className="span mt-3 text-grey">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit...
