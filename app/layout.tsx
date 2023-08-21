@@ -2,6 +2,10 @@ import "@/styles/common/global.css";
 import type { Metadata } from "next";
 import { Poppins, Outfit } from "next/font/google";
 
+// Styles
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 // Components
 import Header from "@/components/common/layout/public/Header";
 import Footer from "@/components/common/layout/public/Footer";

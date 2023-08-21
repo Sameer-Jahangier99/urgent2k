@@ -1,0 +1,155 @@
+.heroImgContainer {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.heroImg {
+    border-radius: 5px;
+}
+
+.homeAboutSectionMainContainer {
+    margin-top: -225px;
+}
+
+.homeAboutDummyContainer {
+    height: 225px;
+}
+
+.homeAboutSectionContainer {
+    background: url('/home-about-us.png') center no-repeat;
+}
+
+.aboutDividerLine {
+    border-bottom: 5px solid var(--white);
+    width: 17px;
+}
+
+.aboutUsCaption {
+    line-height: 1px;
+}
+
+.aboutCardsMainContainer {
+    margin-top: -225px;
+}
+
+.FeatureImgContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.featureImg {
+    border-radius: 8px;
+}
+
+.aboutFoundationDividerLine {
+    border-bottom: 5px solid var(--primary-color);
+    width: 17px;
+}
+
+.aboutFoundationUnorderList {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.aboutFoundationUnorderList li::before {
+    content: "•";
+    color: var(--primary-color);
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+.aboutFoundationBtn {
+    font-size: 14px;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    background-color: var(--primary-color) !important;
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+}
+
+
+.aboutFoundationCard {
+    background: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 140px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 142px;
+}
+
+
+/* For Ipad & Ipad Pro */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .heroImgContainer {
+        height: 380px;
+    }
+
+    .homeAboutSectionMainContainer {
+        margin-top: -190px;
+    }
+
+    .homeAboutDummyContainer {
+        height: 190px;
+    }
+
+    .aboutCardsMainContainer {
+        margin-top: -190px;
+    }
+    
+
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 767px) and (min-width: 340px) {
+    .heroImgContainer {
+        height: 340px;
+    }
+
+    .homeAboutSectionMainContainer {
+        margin-top: -170px;
+    }
+
+    .homeAboutDummyContainer {
+        height: 170px;
+    }
+
+
+    .aboutCardsMainContainer {
+        margin-top: -170px;
+    }
+
+    .FeatureImgContainer {
+        height: 300px;
+    }
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 339px) {
+    .heroImgContainer {
+        height: 240px;
+    }
+
+    .homeAboutSectionMainContainer {
+        margin-top: -120px;
+    }
+
+    .homeAboutDummyContainer {
+        height: 120px;
+    }
+
+    .aboutCardsMainContainer {
+        margin-top: -120px;
+    }
+
+    .FeatureImgContainer {
+        height: 260px;
+    }
+}
+
