@@ -94,6 +94,11 @@
     border-radius: 50px;
 }
 
+.testimonialMainContainer {
+    background: var(--primary-color);
+    
+}
+
 /* For Ipad & Ipad Pro */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .heroImgContainer {
@@ -111,7 +116,6 @@
     .aboutCardsMainContainer {
         margin-top: -190px;
     }
-    
 
 }
 
@@ -137,6 +141,13 @@
     .FeatureImgContainer {
         height: 300px;
     }
+
+        
+    .testimonialArrows {
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+    }
 }
 
 /* For Mobile Screens */
@@ -159,6 +170,13 @@
 
     .FeatureImgContainer {
         height: 260px;
+    }
+
+        
+    .testimonialArrows {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
     }
 }
 

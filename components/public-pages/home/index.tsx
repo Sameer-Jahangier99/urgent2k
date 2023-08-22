@@ -9,6 +9,7 @@ import OurTeam from "../common/OurTeam";
 import AboutFoundation from "./components/AboutFoundation";
 import Partners from "./components/Partners";
 import Blogs from "./components/Blogs";
+import Testimonials from "./components/Testimonials";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Features />
       <OurTeam />
       <AboutFoundation />
+      <Testimonials />
       <Partners />
       <Blogs />
     </main>
